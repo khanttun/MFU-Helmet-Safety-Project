@@ -26,4 +26,13 @@ Thumbs.db
 
 # Model weights (large files; upload separately if needed)
 *.pt
+
+*.pt
+violations/
+*.db
+*.sqlite
+*.sqlite3
+.venv/
+__pycache__/
+.env
 ```
