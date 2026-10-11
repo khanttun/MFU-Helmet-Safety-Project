@@ -1,0 +1,29 @@
+```gitignore
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# YOLO training outputs
+runs/
+datasets/
+custom_dataset/
+
+# Detection snapshots
+violations/
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Editor / OS files
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Model weights (large files; upload separately if needed)
+*.pt
+```

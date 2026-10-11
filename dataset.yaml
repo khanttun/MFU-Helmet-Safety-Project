@@ -1,0 +1,9 @@
+# dataset.yaml  (paths are relative to this file's folder)
+train: images/train
+val: images/val
+
+# Number of classes
+nc: 2
+
+# Order MUST match custom_dataset/labels/train/classes.txt written by labelImg
+names: ['helmet', 'no_helmet']
